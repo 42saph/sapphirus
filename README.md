@@ -1,6 +1,6 @@
 # 📦 Sapphirus
 
-> Server Structure Cloner (Educational Use Only)
+> Discord Server Cloner (Educational Use Only)
 
 ---
 
@@ -16,7 +16,6 @@ By downloading, installing, or using this software, you agree to the following:
 - ✅ OR servers where you have explicit written permission from the owner
 - ✅ Use your PERSONAL user token
 - ❌ You will NOT use this tool to access accounts you do not own
-- ❌ You will NOT use this tool to copy, scrape, or duplicate communities without authorization
 - ❌ You will NOT use this tool to bypass platform safeguards
 - ❌ You will NOT use this tool to evade bans, restrictions, or enforcement actions
 - ❌ You will NOT use this tool in violation of platform Terms of Service
@@ -33,49 +32,29 @@ The developer assumes NO LIABILITY for:
 This project is NOT affiliated with, endorsed by, or supported by Discord.
 
 ---
+# ☃️ How to use 
 
-## 🔐 Authorization Requirement
-
-Before using this tool, ensure:
-
-- You are the server owner
-OR
-- You have written authorization from the server owner
-
-If you do NOT have authorization, DO NOT use this software.
-
+1. Download 
 ---
 
-## 🛡 Compliance Statement
+## 🧑‍💻 Installation 
 
-If contacted by platform operators regarding policy concerns,
-the developer intends to comply with valid takedown or modification requests.
+1. Get your discord account token
+2. Make a discord bot
+3. Add the bot to the target server ( The server that is getting changed ), when using Oauth2 to when adding make sure you give it adminstator permissions and all intents.
+4. Get your discord bot token
+5. (optional) configure config.py to auto login when launching
+6. If you dont wanna save your tokens on your machine, you can enter the details manually when the program is launched to keep it saved in memory.
+7. Run start.bat
+8. Make sure DEVELOPER mode is enabled on your discord account
+9. Enter source server id. (The server you wanna clone from) <- user thats logged in via token must be in the server
+10. Set target server id. (The server you wanna clone on) <- bot must be in must be in this server
+11. Select what clone mode you wanna do
+12. And watch!
 
-Users are responsible for ensuring compliance with:
-- Applicable local laws
-- Platform Terms of Service
-- API usage policies
+**Large servers may take an externed amount of time**
+**Does not clone, messages, members, or permissions.**
 
----
-
-## 🧰 Features
-
-- 📁 Server structure replication
-- 🏷 Role recreation
-- 🗂 Channel recreation
-- 🧩 Emoji replication (where permitted)
-- ⚙ Configuration migration
-
----
-
-## 🧑‍💻 Installation & Usage
-
-```bash
-git clone https://github.com/42saph/sapphirus
-cd sapphirus
-pip install -r requirements.txt
-
-python launch.py
 
 
 
