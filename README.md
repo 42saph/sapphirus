@@ -32,16 +32,22 @@ The developer assumes NO LIABILITY for:
 This project is NOT affiliated with, endorsed by, or supported by Discord.
 
 ---
-# ☃️ How to use 
+# ☃️ What it does
 
-1. Download 
+- Copies Discord server layout from one server to another
+  
+- Scrapes roles, channels, categories, emojis using a user account token and server guild id
+ 
+- Wipes target server clean before pasting
+  
+- Uses bot token to write changes
 ---
 
 ## 🧑‍💻 Installation 
 
 1. Get your discord account token
 
-2. Make a discord bot 
+2. Make a discord bot ( https://discord.com/developers/applications )
 
 3. Add the bot to the target server ( The server that is getting changed ), when using Oauth2 to when adding make sure you give it adminstator
  permissions and all intents.
@@ -66,6 +72,7 @@ This project is NOT affiliated with, endorsed by, or supported by Discord.
 
 **Large servers may take an externed amount of time**
 **Does not clone, messages, members, or permissions.**
+
 
 
 
